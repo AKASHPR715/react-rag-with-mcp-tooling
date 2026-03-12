@@ -1,0 +1,15 @@
+langchain>=0.3.0
+langchain-openai
+langchain-community
+langchain-pinecone
+langchain-nvidia-ai-endpoints
+pinecone-client
+tavily-python
+python-dotenv
+neo4j
+pymongo
+bson
+langgraph
+langgraph-prebuilt
+fastapi
+uvicorn
