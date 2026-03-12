@@ -62,7 +62,7 @@ EMBEDDING_MODEL = "nvidia/nv-embedqa-e5-v5"
 
 # Fallback imports for other services
 try:
-    from app.services.rag_tool.graphdb import query_tax_graph
+    from app.services.extraction_tool.rag_tool.graphdb import query_tax_graph
     # db_helpers seems missing, but I'll update it just in case or let it fallback
     # from app.services.db_helpers import get_sync_db
     from bson import ObjectId

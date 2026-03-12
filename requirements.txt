@@ -13,3 +13,4 @@ langgraph
 langgraph-prebuilt
 fastapi
 uvicorn
+PyYAML>=6.0.1
