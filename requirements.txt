@@ -1,3 +1,4 @@
+# Core RAG & Tooling
 langchain>=0.3.0
 langchain-openai
 langchain-community
@@ -5,12 +6,18 @@ langchain-pinecone
 langchain-nvidia-ai-endpoints
 pinecone-client
 tavily-python
+
+# Web Framework & Server
+fastapi<1.0.0
+uvicorn[standard]
 python-dotenv
-neo4j
+pydantic<3,>=2.0
+
+# Database & Serialization
 pymongo
 bson
+PyYAML>=6.0.1
+
+# Simplified Agent Tooling (Optional if not explicitly using graph logic yet)
 langgraph
 langgraph-prebuilt
-fastapi
-uvicorn
-PyYAML>=6.0.1
