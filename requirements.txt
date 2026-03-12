@@ -1,23 +1,24 @@
-# Core RAG & Tooling
-langchain>=0.3.0
-langchain-openai
-langchain-community
-langchain-pinecone
-langchain-nvidia-ai-endpoints
-pinecone-client
-tavily-python
+# Core RAG (Pinned versions for stable resolution)
+langchain==0.3.13
+langchain-core==0.3.25
+langchain-openai==0.2.12
+langchain-community==0.3.11
+langchain-pinecone==0.2.0
+langchain-nvidia-ai-endpoints==0.3.1
+pinecone-client==5.0.1
+tavily-python==0.5.0
 
 # Web Framework & Server
-fastapi<1.0.0
-uvicorn[standard]
-python-dotenv
-pydantic<3,>=2.0
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-dotenv==1.0.1
+pydantic==2.10.3
 
 # Database & Serialization
-pymongo
-bson
-PyYAML>=6.0.1
+pymongo==4.10.1
+bson==0.5.10
+PyYAML==6.0.1
 
-# Simplified Agent Tooling (Optional if not explicitly using graph logic yet)
-langgraph
-langgraph-prebuilt
+# Agent Tooling
+langgraph==0.2.59
+langgraph-prebuilt==0.1.1

@@ -13,8 +13,8 @@ from langchain_core.agents import AgentAction, AgentFinish
 from langchain_core.output_parsers import BaseOutputParser
 from langchain_pinecone import PineconeVectorStore
 from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings, ChatNVIDIA
-from langchain_classic.agents import AgentExecutor, create_react_agent
-from langchain_classic import hub
+from langchain.agents import AgentExecutor, create_react_agent
+from langchain import hub
 from logging.handlers import RotatingFileHandler
 
 # Load environment variables
